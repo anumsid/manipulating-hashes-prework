@@ -16,7 +16,7 @@ def first_challenge
 array =  contacts["Freddy Mercury"][:favorite_icecream_flavors]
   array.delete_if do |ice|
      ice == "strawberry"
-  end    
+  end
 
   #remember to return your newly altered contacts hash!
   contacts
